@@ -23,7 +23,7 @@ Baik itu digunakan dalam argument, maupun sebagai return value
         }
 
 
-        kerjakanTugas(`Pemrograman Web`, selesai) // yang penting ininya sama dengan  nama fungsinya dan ini disebut callback
+        kerjakanTugas(`Pemrograman Web`, selesai) // sebenernya tak perlu ada parameter selesai karena fungsi selesi akan berjalan sendiri
     </script>
 </body>
 </html>

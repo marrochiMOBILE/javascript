@@ -6,19 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="submit">Tekan Boss</h1>
     <script>
-  function ucapkanSalam(waktu){
-    return function(nama){ // return disini mengembalikan function
-        console.log(`Halo ${nama}, Selamat ${waktu}, semoga harimu menyenangkan!!`);
-    }
-  }
+            const mhs = {
+    nama :  `marrochi`,
+    umur : 33,
+    nim  : `171011400286`,
+    email : `marrochi@email.com`
+}
 
-  let selamatPagi  = ucapkanSalam('Pagi'); // disini baru dijalankan setengah
-  let selamatSiang  = ucapkanSalam('Siang');
-  let selamatMalam  = ucapkanSalam('Malam');
+const el = `<div class="mhs">
+<h2>${mhs.nama}</h2>
+<span class="nrp">${mhs.nim}</span>
+</div>`
 
-      
+console.log(el);
     </script>
 </body>
 </html>
